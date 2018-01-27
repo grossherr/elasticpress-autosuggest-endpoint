@@ -1,0 +1,18 @@
+{
+	"require" : {
+		"elasticsearch/elasticsearch" : "~5.0"
+	},
+	"authors" : [{
+			"name" : "Nicolai",
+			"email" : "sonst@ngcorp.de",
+			"homepage" : "https://ngcorp.de/"
+		}
+	],
+	"name" : "Elasticpress Autosuggest Endpoint",
+	"description" : "Creates Endpoint for Elastipress to perform Autosuggest",
+	"homepage" : "https://github.com/grossherr/elasticpress-autosuggest-endpoint",
+	"license" : "GPL-3.0+",
+	"keywords" : [
+		"Elasticpress Autosuggest Elasticsearch WordPress"
+	]
+}
