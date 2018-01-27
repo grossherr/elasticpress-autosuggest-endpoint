@@ -1,9 +1,14 @@
 # Elasticpress Autosuggest Endpoint
 
 Configuration:
-- set your index
-- customize your endpoint
+- Set your index
+- Customize the endpoint
 
-Setup Elasticpress Autosuggest:
-- In Settings give https//domain.con/elasticpress/autosuggest/
+Setup:
+- Elasticpress PHP Client is necessary
+- if installed via composer it should be added automatically
+- if not, go to plugin directory and  run: composer install --no-dev 
 
+Elasticpress Autosuggest Settings:
+- Endpoint https//domain.con/elasticpress/autosuggest/
+- Or whatever you customized
