@@ -3,13 +3,11 @@
  Plugin Name:  Elasticpress Autosuggest Endpoint
  Plugin URI:   https://github.com/grossherr/elasticpress-autosuggest-endpoint
  Description:  Basic WordPress Plugin Header Comment
- Version:      0.1
+ Version:      0.3
  Author:       Nicolai
  Author URI:   https://ngcorp.de/
  License:      GPL2
  License URI:  https://www.gnu.org/licenses/gpl-2.0.html
- Text Domain:  ep-as-ep
- Domain Path:  /languages
  */
 
 /**
