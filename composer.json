@@ -8,7 +8,7 @@
 			"homepage" : "https://ngcorp.de/"
 		}
 	],
-	"name" : "Elasticpress Autosuggest Endpoint",
+	"name" : "Elasticpress-Autosuggest-Endpoint_WordPress",
 	"description" : "Creates Endpoint for Elastipress to perform Autosuggest",
 	"homepage" : "https://github.com/grossherr/elasticpress-autosuggest-endpoint",
 	"license" : "GPL-3.0+",
