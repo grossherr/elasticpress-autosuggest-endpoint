@@ -9,10 +9,10 @@
 		}
 	],
 	"name" : "grossherr/elasticpress-autosuggest-endpoint",
-	"description" : "Creates Endpoint for Elastipress to perform Autosuggest",
+	"description" : "Creates Endpoint for the WordPress Plugin ElasticPress to perform Autosuggest feature",
 	"homepage" : "https://github.com/grossherr/elasticpress-autosuggest-endpoint",
 	"license" : "GPL-3.0+",
 	"keywords" : [
-		"Elasticpress Autosuggest Elasticsearch WordPress"
+		"ElasticPress Autosuggest Elasticsearch WordPress"
 	]
 }
