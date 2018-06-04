@@ -14,5 +14,6 @@
 	"license" : "GPL-3.0+",
 	"keywords" : [
 		"ElasticPress Autosuggest Elasticsearch WordPress"
-	]
+	],
+	"type": "wordpress-plugin"
 }
