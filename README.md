@@ -10,5 +10,5 @@
 - if not, go to plugin directory and  run: composer install --no-dev 
 
 ### Elasticpress Autosuggest Settings:
-- Endpoint https//domain.con/elasticpress/autosuggest/
+- Endpoint https//domain.con/wp-json/elasticpress/autosuggest/
 - Or whatever you customized
