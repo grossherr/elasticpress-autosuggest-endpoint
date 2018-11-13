@@ -22,6 +22,9 @@ use Elasticsearch\ClientBuilder;
 
 /**
  * Register Elasticpress Autosuggest Endpoint
+ *
+ * This is the endpoint you have to specify in the admin
+ * like this: http(s)://domain.com/wp-json/elasticpress/autosuggest/
  */
 add_action( 'rest_api_init', function() {
 	register_rest_route( 'elasticpress', '/autosuggest/', [
@@ -33,16 +36,22 @@ add_action( 'rest_api_init', function() {
 /**
  * Elasticpress Autosuggest Endpoint Callback
  *
+ * gets host and index name dynamically. Otherwise,
+ * if not specified, host would default to localhost:9200
+ * and index name would default to 'index'
+ *
  * @param \WP_REST_Request $data
  * @return array|callable
  */
 function ep_autosuggest( \WP_REST_Request $data ) {
-	$client = ClientBuilder::create()->build();
-	$params = [
-		'index' => 'index',
-		'type' => 'post',
-		'body' => $data->get_body()
-	];
-	$response = $client->search( $params );
-	return $response;
+    $client = ClientBuilder::create();
+    $client->setHosts([ep_get_host()]); // get host dynamically
+    $client = $client->build();
+    $params = [
+        'index' => ep_get_index_name(), // get index dynamically
+        'type' => 'post',
+        'body' => $data->get_body()
+    ];
+    $response = $client->search( $params );
+    return $response;
 }
