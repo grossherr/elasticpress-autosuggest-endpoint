@@ -1,3 +1,7 @@
+# No Longer Maintained
+
+Take a look at: https://github.com/grossherr/elasticpress-autosuggest-endpoint/issues/12#issuecomment-580247406
+
 # Elasticpress Autosuggest Endpoint
 
 ### Configuration:
